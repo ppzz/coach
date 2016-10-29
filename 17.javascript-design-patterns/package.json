@@ -1,0 +1,24 @@
+{
+  "name": "javascript-design-patterns",
+  "version": "1.0.0",
+  "description": "A demo to teaching javascript design patterns.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamcoach/javascript-design-patterns.git"
+  },
+  "author": "ThoughtWorks Academy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcoach/javascript-design-patterns/issues"
+  },
+  "homepage": "https://github.com/iamcoach/javascript-design-patterns",
+  "scripts": {
+    "test": "mocha ./test/**/*.js"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  }
+}
