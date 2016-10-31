@@ -8,7 +8,14 @@ function count_same_elements(collection) {
     return item;
   });
 
-  return pra2(collection_copy);
+  var temp = pra2(collection_copy);
+
+  return temp.map(function (item) {
+    return {
+      name: item.key,
+      summary: item.count
+    };
+  });
 }
 
 module.exports = count_same_elements;
