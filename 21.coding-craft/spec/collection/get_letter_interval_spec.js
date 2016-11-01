@@ -1,6 +1,7 @@
 'use strict';
 
-var get_letter_interval = require('../../../src/collection/get_letter_interval_2.js');
+var expect = require('expect');
+var get_letter_interval = require('../../src/collection/get_letter_interval.js');
 
 describe('get_letter_interval', function () {
 
