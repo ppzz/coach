@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha spec"
+    "test": "mocha spec/**/*.js"
   },
   "dependencies": {
     "mocha": "2.2.5",
@@ -8,4 +8,3 @@
     "lodash": "3.9.3"
   }
 }
-        

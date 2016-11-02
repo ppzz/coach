@@ -1,8 +1,8 @@
 'use strict';
+var expect = require('expect');
+var count_same_elements = require("../../src/collection/practice_3.js");
 
-var count_same_elements = require("../../../src/collection/practice_3.js");
-
-xdescribe('practice-2-3', function() {
+describe('practice-2-3', function () {
 
   var collection = [
     "a", "a", "a",
@@ -16,7 +16,7 @@ xdescribe('practice-2-3', function() {
     "d-5"
   ];
 
-  it("把A集合中相同的元素统计出数量", function() {
+  it("把A集合中相同的元素统计出数量", function () {
     var result = count_same_elements(collection);
 
     expect(result).toEqual([
